@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vijay Gupta | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="logo">Vijay</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Hello, I am</p>
+        <h1>Vijay Gupta</h1>
+        <h2>BCA Student | Web Developer</h2>
+        <p class="hero-text">
+          I enjoy creating clean, responsive websites and learning how technology
+          can solve real problems through simple, useful digital experiences.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary-btn">View Projects</a>
+          <a href="#contact" class="btn secondary-btn">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <img src="assets/profile-photo.jpg" alt="Profile photo of Vijay Gupta">
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>Curious about code, design, and technology</h2>
+      </div>
+      <div class="about-content reveal">
+        <p>
+          I am a BCA student interested in web development, programming, and
+          technology. I like building practical projects that improve my skills
+          in frontend design, problem solving, and writing clear code.
+        </p>
+        <div class="about-points">
+          <span>Web Development</span>
+          <span>Programming</span>
+          <span>Technology</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Tools and languages I work with</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal">Python</article>
+        <article class="skill-card reveal">HTML</article>
+        <article class="skill-card reveal">CSS</article>
+        <article class="skill-card reveal">JavaScript</article>
+        <article class="skill-card reveal">C</article>
+        <article class="skill-card reveal">C++</article>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h2>Beginner projects with real practice value</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-icon">01</div>
+          <h3>Personal Portfolio Website</h3>
+          <p>A responsive dark-theme website to introduce myself, skills, projects, and contact links.</p>
+          <a class="project-link" href="#home">View Portfolio</a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-icon">02</div>
+          <h3>Login Form</h3>
+          <p>A clean user login form focused on layout, input styling, and basic validation practice.</p>
+          <a class="project-link" href="login.html">View Login Form</a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-icon">03</div>
+          <h3>To-Do App</h3>
+          <p>A simple task manager project for practicing JavaScript events and DOM updates.</p>
+          <a class="project-link" href="todo.html">View To-Do App</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="resume section" id="resume">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Resume</p>
+        <h2>Education and learning journey</h2>
+      </div>
+      <div class="resume-content">
+        <article class="resume-card reveal">
+          <span class="resume-year">Present</span>
+          <h3>BCA Student</h3>
+          <p>
+            Studying computer applications with a focus on programming,
+            web development, database basics, and practical technology skills.
+          </p>
+        </article>
+        <article class="resume-card reveal">
+          <span class="resume-year">Focus Area</span>
+          <h3>Web Development</h3>
+          <p>
+            Building responsive websites using HTML, CSS, and JavaScript while
+            improving layout, design, and frontend problem-solving skills.
+          </p>
+        </article>
+        <article class="resume-card reveal">
+          <span class="resume-year">Practice</span>
+          <h3>Programming Skills</h3>
+          <p>
+            Practicing Python, C, and C++ to strengthen logic building,
+            problem solving, and understanding of programming fundamentals.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's connect</h2>
+      </div>
+      <div class="contact-content reveal">
+        <a href="mailto:vk4390111@gmail.com" aria-label="Email Vijay Gupta">
+          <img class="brand-icon" src="assets/gmail-icon.svg" alt="">
+          <span>Email</span>
+        </a>
+        <a href="https://wa.me/917073597970" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Vijay Gupta">
+          <img class="brand-icon" src="assets/whatsapp-icon.svg" alt="">
+          <span>WhatsApp</span>
+        </a>
+        <a href="https://www.linkedin.com/in/vijay-kumar-7110a3376" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Vijay Gupta">
+          <img class="brand-icon" src="assets/linkedin-icon.svg" alt="">
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/vijay100000" target="_blank" rel="noopener noreferrer" aria-label="GitHub Vijay Gupta">
+          <img class="brand-icon" src="assets/github-icon.svg" alt="">
+          <span>GitHub</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Vijay Gupta. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

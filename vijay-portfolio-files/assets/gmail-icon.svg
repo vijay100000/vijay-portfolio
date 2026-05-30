@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gmail">
+  <rect width="64" height="64" rx="14" fill="#fff"/>
+  <path d="M12 18h8l12 9 12-9h8v28H12V18Z" fill="#fff"/>
+  <path d="M12 18h8l12 9 12-9h8L32 33 12 18Z" fill="#EA4335"/>
+  <path d="M12 18v28h8V24l-8-6Z" fill="#C5221F"/>
+  <path d="M52 18v28h-8V24l8-6Z" fill="#FBCB43"/>
+  <path d="M20 24v22h24V24L32 33 20 24Z" fill="#fff"/>
+  <path d="M12 46h8V24l-8-6v28Z" fill="#4285F4"/>
+  <path d="M52 46h-8V24l8-6v28Z" fill="#34A853"/>
+</svg>
